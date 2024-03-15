@@ -1,0 +1,67 @@
+.LoginMain {
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    height: 100vh; /* Adjusts height to full viewport height */
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column; /* Stacks buttons vertically */
+}
+
+.AgentLogin{
+    align-items: center;
+    position:absolute;
+    margin-left: -100px;
+    margin-top:-100px; /* Add margin as needed */
+    background-color: blue
+}
+.StudentLogin {
+    position: relative;
+    margin-left: -100px;
+    margin-top:50px; /* Add margin as needed */
+    background-color: blue
+}
+.AgentLogin1{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+   /* Green border */
+  color: #ffffff; /* White text */
+  background-color: #e57a23; /* Green background */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s;
+}
+.AgentLogin1:hover {
+    background-color: #eab360; 
+    border: 2px solid #eab360;
+}
+.AgentLogin1:active {
+    background-color: #eab360; 
+    border: 2px solid #eab360;
+}
+.StudentLogin1{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+     /* Green border */
+    color: #ffffff; /* White text */
+    background-color: #e57a23; /* Green background */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s;
+}
+.StudentLogin1:hover {
+    background-color: #eab360; 
+    border: 2px solid #eab360;/* Darker green */
+}
+.StudentLogin1:active {
+    background-color: #eab360; 
+    border: 2px solid #eab360;/* Even darker green */
+}
